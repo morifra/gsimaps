@@ -3,7 +3,20 @@
     {
       "type": "Layer",
       "id": "std",
-      "title": "標準地図",
+      "title": "OSM",
+      "attribution":"<a href='https://maptiler.jp/' target='_blank'>&copy; MIERUNE</a> <a href='https://www.maptiler.com/copyright/' target='_blank'>&copy; MapTiler</a> <a href='https://www.openstreetmap.org/copyright' target='_blank'>&copy; OpenStreetMap contributors</a>",
+      "url": "https://api.maptiler.com/maps/jp-mierune-streets/256/{z}/{x}/{y}.png?key=KwtAqlOCcgUCdCKPS0Ik",
+      "cocotile": true,
+      "minZoom": 3,
+      "maxZoom": 22,
+      "maxNativeZoom": 22,
+      "legendUrl": "https://maptiler.jp",
+      "errorTileUrl": "./image/map/no-data-std.png"
+    },
+    {
+      "type": "Layer",
+      "id": "chi",
+      "title": "地理院地図",
       "url": "https://maps.gsi.go.jp/xyz/std/{z}/{x}/{y}.png?_=20200402a",
       "cocotile": true,
       "html" : "",
@@ -30,17 +43,6 @@
       "html" : "",
       "legendUrl": "https://maps.gsi.go.jp/development/ichiran.html#blank",
       "errorTileUrl": "./image/map/no-data-blank.png"
-    },
-    {
-      "type": "Layer",
-      "id": "english",
-      "title": "English",
-      "url": "https://maps.gsi.go.jp/xyz/english/{z}/{x}/{y}.png?_=20200402a",
-      "cocotile": true,
-      "maxNativeZoom": 11,
-      "html" : "",
-      "legendUrl": "https://maps.gsi.go.jp/development/ichiran.html#english",
-      "errorTileUrl": "./image/map/no-data-english.png"
     },
     {
       "type": "Layer",

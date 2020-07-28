@@ -1,0 +1,46 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "消防関係",
+	"iconUrl": "https://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/skhb_20px.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>消防団用のテストです</div>",
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "skhb01",
+          "title": "消火栓",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/skhb.png",
+          "url": "layers_txt/json/shokasen.geojson",
+          "minZoom": 10,
+          "maxZoom": 18,
+          "maxNativeZoom": 10,
+          "html": "<div class='layer_text'><p>消火栓の一途です。</p></div>"
+        },
+        {
+          "type": "Layer",
+          "id": "skhb02",
+          "title": "防火水槽(森)",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/skhb.png",
+          "url": "layers_txt/json/mori_bokasuiso.geojson",
+          "minZoom": 10,
+          "maxZoom": 18,
+          "maxNativeZoom": 10,
+          "html": "<div class='layer_text'><p>消火栓の一途です。</p></div>"
+        },
+        {
+          "type": "Layer",
+          "id": "skhb03",
+          "title": "防火水槽(砂原)",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/skhb.png",
+          "url": "layers_txt/json/sawara_bokasuiso.geojson",
+          "minZoom": 10,
+          "maxZoom": 18,
+          "maxNativeZoom": 10,
+          "html": "<div class='layer_text'><p>消火栓の一途です。</p></div>"
+        }
+      ]
+    }
+  ]
+}
