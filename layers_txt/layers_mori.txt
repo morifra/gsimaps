@@ -50,7 +50,7 @@
           "maxZoom": 18,
           "maxNativeZoom": 10,
           "html": "<div class='layer_text'><p>ランデブーポイントです。</p></div>"
-        },
+        }
       ]
     }
   ]
