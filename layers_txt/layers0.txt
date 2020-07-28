@@ -4,6 +4,19 @@
       "type": "Layer",
       "id": "std",
       "title": "OSM",
+      "attribution": "<a href='https://www.openstreetmap.org/copyright' target='_blank'>&copy; OpenStreetMap contributors</a>",
+      "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "cocotile": true,
+      "minZoom": 3,
+      "maxZoom": 22,
+      "maxNativeZoom": 22,
+      "legendUrl": "https://www.openstreetmap.org",
+      "errorTileUrl": "./image/map/no-data-std.png"
+    },
+    {
+      "type": "Layer",
+      "id": "mie",
+      "title": "MIERUNE",
       "attribution":"<a href='https://maptiler.jp/' target='_blank'>&copy; MIERUNE</a> <a href='https://www.maptiler.com/copyright/' target='_blank'>&copy; MapTiler</a> <a href='https://www.openstreetmap.org/copyright' target='_blank'>&copy; OpenStreetMap contributors</a>",
       "url": "https://api.maptiler.com/maps/jp-mierune-streets/256/{z}/{x}/{y}.png?key=KwtAqlOCcgUCdCKPS0Ik",
       "cocotile": true,
@@ -32,17 +45,6 @@
       "html" : "",
       "legendUrl": "https://maps.gsi.go.jp/development/ichiran.html#pale",
       "errorTileUrl": "./image/map/no-data-pale.png"
-    },
-    {
-      "type": "Layer",
-      "id": "blank",
-      "title": "白地図",
-      "url": "https://maps.gsi.go.jp/xyz/blank/{z}/{x}/{y}.png?_=20200402a",
-      "cocotile": true,
-      "maxNativeZoom": 14,
-      "html" : "",
-      "legendUrl": "https://maps.gsi.go.jp/development/ichiran.html#blank",
-      "errorTileUrl": "./image/map/no-data-blank.png"
     },
     {
       "type": "Layer",

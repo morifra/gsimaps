@@ -16,7 +16,7 @@
           "minZoom": 10,
           "maxZoom": 18,
           "maxNativeZoom": 10,
-          "html": "<div class='layer_text'><p>消火栓の一途です。</p></div>"
+          "html": "<div class='layer_text'><p>消火栓の位置です。</p></div>"
         },
         {
           "type": "Layer",
@@ -27,7 +27,7 @@
           "minZoom": 10,
           "maxZoom": 18,
           "maxNativeZoom": 10,
-          "html": "<div class='layer_text'><p>消火栓の一途です。</p></div>"
+          "html": "<div class='layer_text'><p>防火水槽です。</p></div>"
         },
         {
           "type": "Layer",
@@ -38,8 +38,19 @@
           "minZoom": 10,
           "maxZoom": 18,
           "maxNativeZoom": 10,
-          "html": "<div class='layer_text'><p>消火栓の一途です。</p></div>"
-        }
+          "html": "<div class='layer_text'><p>防火水槽です。</p></div>"
+        },
+        {
+          "type": "Layer",
+          "id": "skhb04",
+          "title": "ランデブーポイント",
+          "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/skhb.png",
+          "url": "layers_txt/json/rendezvous.geojson",
+          "minZoom": 10,
+          "maxZoom": 18,
+          "maxNativeZoom": 10,
+          "html": "<div class='layer_text'><p>ランデブーポイントです。</p></div>"
+        },
       ]
     }
   ]
