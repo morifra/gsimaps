@@ -14,8 +14,5 @@
 	},
 	{
 		"url":"./layers4.txt"
-	},
-	{
-		"url":"./layers5.txt"
 	}
 ]
